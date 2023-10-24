@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* permitindo que os itens flexíveis se movam para a próxima linha ou coluna, conforme necessário, para evitar o estouro do contêiner flexível */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
